@@ -21,8 +21,6 @@ H
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-n
->app/src/main/java/com/example/myapplication/FirebaseUtils.java,d\c\dce5d9f65829264407e7ecabeafc5d64d950245b
 j
 :app/src/main/java/com/example/myapplication/UserModel.java,2\8\28eb0aad1a385f41baa774a8a163747325533afd
 s
@@ -47,7 +45,5 @@ r
 Bapp/src/test/java/com/example/myapplication/HaversineDistance.java,0\3\039f75ee84536161a38cc2c7fea1cf30764470c4
 u
 Eapp/src/test/java/com/example/myapplication/MainActivityUnitTest.java,1\8\18eddebf6ba3523321cbefd20ee0721b4eb8d14a
-d
-4app/src/main/java/com/example/myapplication/Job.java,c\6\c6b6e4a84b00de43b14dda1a41dddd744b91df38
 i
 9app/src/main/java/com/example/myapplication/Employer.java,f\d\fd286cc91746899ea9bc8393637be6d43b25b9fa

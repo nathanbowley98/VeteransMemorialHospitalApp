@@ -6,6 +6,8 @@
     <string name="google_maps_key">AIzaSyDR3TcP49rclnuPwjyQUgTltj7kvbBSn8c</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_jobs_maps">JobsMapsActivity</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
 
     <string-array name="user_types">
         <item>Employee</item>

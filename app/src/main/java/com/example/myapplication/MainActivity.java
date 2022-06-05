@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -54,6 +55,14 @@ public class MainActivity extends AppCompatActivity {
         Button register = (Button) findViewById(R.id.register);
         setIntent(register, GoogleMapsActivity.class);
         redirectIfLoggedIn();
+
+        final HorizontalScrollView scrollView = (HorizontalScrollView) findViewById(R.id.developerCreditsScrollView);
+
+        scrollView.postDelayed(new Runnable() {
+            public void run() {
+                scrollView.fullScroll(HorizontalScrollView.FOCUS_RIGHT);
+            }
+        }, 100L);
 
     }
     /**
