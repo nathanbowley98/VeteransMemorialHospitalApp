@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/jobEmployerLayoutJobTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    tools:text="Job Title: " />
+
+<TextView
+    android:id="@+id/jobEmployerLayoutEmployerEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="16dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    tools:hint="Email: " />
+
+
+<TextView
+    android:id="@+id/jobEmployerLayoutDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    tools:text="Description: " />
+
+<TextView
+    android:id="@+id/jobEmployerLayoutHourlyRate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    tools:text="Hourly Rate: " />
+<TextView
+    android:id="@+id/jobEmployerLayoutLatitude"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    tools:text="Latitude: " />
+
+<TextView
+    android:id="@+id/jobEmployerLayoutLongitude"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    tools:text="Longitude: " />
+
+    <Button
+        android:id="@+id/jobEmployerLayoutCurrentAppsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:spinnerMode="dropdown"
+        android:text="See Current Applications"
+        android:textColor="@color/black" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="horizontal">
+
+    <Spinner
+        android:id="@+id/jobEmployerLayoutSpinner"
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Employee Requirements"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/jobEmployerLayoutSuggestButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:spinnerMode="dropdown"
+        android:text="See Suggested Employees"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <SeekBar
+            android:id="@+id/jobEmployerLayoutSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/jobEmployerLayoutSeekBarTextView"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Distance: 0km"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/jobEmployerLayoutSeekBar" />
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:id="@+id/finalView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/employeeJobsRecyclerViewDistance"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employerJobsRecyclerView"
+        tools:itemCount="10"
+        tools:listitem="@layout/users_employee_layout" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/employeeJobsRecyclerViewRating"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employerJobsRecyclerView"
+        tools:itemCount="10"
+        tools:listitem="@layout/users_employee_layout" />
+
+
+</LinearLayout>
+
+

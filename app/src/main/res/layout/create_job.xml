@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/createJob"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateJob">
+
+    <TextView
+        android:id="@+id/createJobHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Job"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/createJobEmail"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        android:visibility="visible"
+        android:hint="Employer Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createJobHeader"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/createJobTitle"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="36dp"
+        android:hint="Job Title"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createJobEmail"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/createJobDescription"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="44dp"
+        android:hint="Description"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createJobTitle"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/createJobHourlyRate"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="44dp"
+        android:hint="Hourly Rate"
+        android:inputType="numberDecimal"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createJobDescription"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/createJobHourlyRate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="44dp"
+        />
+
+    <Button
+        android:id="@+id/createJobSubmitButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Submit Job!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/categorySpinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

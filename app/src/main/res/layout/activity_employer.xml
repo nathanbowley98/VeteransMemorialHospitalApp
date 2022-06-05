@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/employerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployerActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/employerLoginDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Welcome Employer!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/employerApplications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="View Applications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createJob" />
+
+    <Button
+        android:id="@+id/makeAReview_employer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:text="Make a review"
+        app:layout_constraintStart_toStartOf="@+id/employerSearchButton"
+        app:layout_constraintTop_toBottomOf="@+id/employerPayButton" />
+
+    <Button
+        android:id="@+id/employerSearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Search for Jobs"
+        app:layout_constraintStart_toStartOf="@+id/employerApplications"
+        app:layout_constraintTop_toBottomOf="@+id/employerApplications" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="4dp"
+        android:text="check place"
+        app:layout_constraintStart_toStartOf="@+id/employerApplications"
+        app:layout_constraintTop_toBottomOf="@+id/employerHistory" />
+
+    <Button
+        android:id="@+id/employerYourJobsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="YOUR JOBS"
+        app:layout_constraintStart_toStartOf="@+id/employerLogoutButton"
+        app:layout_constraintTop_toBottomOf="@+id/makeAReview_employer" />
+
+    <Button
+        android:id="@+id/employerHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="152dp"
+        android:text="History"
+        app:layout_constraintStart_toStartOf="@+id/check"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/createJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:text="Create Job"
+        app:layout_constraintStart_toStartOf="@+id/check"
+        app:layout_constraintTop_toBottomOf="@+id/check" />
+
+    <Button
+        android:id="@+id/employerLogoutButton"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employerYourJobsButton" />
+
+    <Button
+        android:id="@+id/employerPayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="3dp"
+        android:text="PAY EMPLOYEE"
+        app:layout_constraintEnd_toEndOf="@+id/makeAReview_employer"
+        app:layout_constraintTop_toBottomOf="@+id/employerSearchButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
