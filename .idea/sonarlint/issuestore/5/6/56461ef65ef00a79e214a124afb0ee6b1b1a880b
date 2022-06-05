@@ -1,0 +1,34 @@
+
+n
+java:S14500"YRemove the "homeButton" field and declare it as a local variable in the relevant methods.(¥‚?
+v
+java:S14506"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ıÿÿÿÿ
+V	java:S125a"<This block of commented-out lines of code should be removed.(ÍÅ÷œøÿÿÿÿ
+O
+java:S1068 "4Remove this unused "applicationEmail" private field.(ºœ˜÷ıÿÿÿÿ
+I
+java:S1068!"3Remove this unused "applicationName" private field.(¼¹ß²
+K
+java:S1068#"5Remove this unused "applicationAccept" private field.(âÙ„”
+P
+java:S1068$"5Remove this unused "applicationIgnore" private field.(Ìì™¬ûÿÿÿÿ
+K
+java:S1068&"5Remove this unused "sharedPreferences" private field.(„ºÌ¬
+@
+java:S1068'"*Remove this unused "editor" private field.(–ñèˆ
+N
+java:S1068)"3Remove this unused "employeeEmailET" private field.(’Ìì¶ÿÿÿÿÿ
+M
+java:S1068*"2Remove this unused "employeeNameET" private field.(¡î’Âûÿÿÿÿ
+E
+java:S1068+"*Remove this unused "ignore" private field.(äîØÂıÿÿÿÿ
+E
+java:S1068,"*Remove this unused "accept" private field.(Åó¥Ìùÿÿÿÿ
+D
+java:S1068.".Remove this unused "firebaseDB" private field.(ÃòÕÅ
+A
+java:S1068/"+Remove this unused "appsRef" private field.(êãı
+@
+java:S10683"*Remove this unused "inputs" private field.(Ü¨İ
+C
+java:S1604Z"(Make this anonymous inner class a lambda(–©–Œùÿÿÿÿ

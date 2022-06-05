@@ -1,0 +1,26 @@
+
+q	java:S116s"WRename this field "EARTH_RADIUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Û«Ðùÿÿÿÿ
+<
+java:S1170s"!Make this final field static too.(“Û«Ðùÿÿÿÿ
+œ
+java:S1186p"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³ÆÌ¶øÿÿÿÿ
+˜
+java:S1186Ž"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½ë¿í
+v
+java:S1450"YRemove the "firebaseDB" field and declare it as a local variable in the relevant methods.(ÃòÕÅ8‘“ùÌü/
+x
+java:S1450"[Remove the "recyclerview" field and declare it as a local variable in the relevant methods.(ß çœ8‘“ùÌü/
+—
+java:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+l
+java:S3252e"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(µ‰¯0
+k	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™òÛÿÿÿÿÿ
+k	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™òÛÿÿÿÿÿ
+k	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™òÛÿÿÿÿÿ
+k	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™òÛÿÿÿÿÿ
+r
+java:S1104!"PMake list a static final constant or non-public and provide accessors if needed.(Àê’Îþÿÿÿÿ8Ñ“ùÌü/
+^
+java:S2184‡"BCast one of the operands of this division operation to a "double".(Ôíðéùÿÿÿÿ
+\
+java:S2184‡"@Cast one of the operands of this integer division to a "double".(Ôíðéùÿÿÿÿ

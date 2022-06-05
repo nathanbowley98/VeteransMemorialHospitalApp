@@ -1,0 +1,11 @@
+
+h
+java:S3008"SRename this field "EMPLOYER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É›»M
+U
+java:S1118":Add a private constructor to hide the implicit public one.(¾Å§¯ûÿÿÿÿ
+i
+java:S1104"TMake EMPLOYER a static final constant or non-public and provide accessors if needed.(É›»M
+C
+java:S1444".Make this "public static EMPLOYER" field final(É›»M
+,
+java:S1700"Rename field "EMPLOYER"(É›»M
